@@ -1,0 +1,38 @@
+.search_block {
+  margin: 3em 2em;
+  border-radius: 3em;
+  display: flex;
+  background-color: $color-brown;
+  overflow: hidden;
+}
+.search_button {
+  background-color: inherit;
+  border: none;
+  border-radius: 1em;
+}
+.search_input {
+  font-size: 2em;
+  border: none;
+  background-color: $color-brown;
+  color: white;
+  width: 0vw;
+  outline: none;
+  border-radius: 0.5em;
+  transition: width 0.3s;
+}
+
+.search_opened {
+  width: 15vw;
+}
+.search_icon {
+  color: white;
+  background-color: $color-brown;
+  font-size: 2em;
+  padding: 0.5em 0.75em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.icon_opened {
+  cursor: auto;
+}

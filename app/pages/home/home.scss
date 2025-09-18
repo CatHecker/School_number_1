@@ -1,0 +1,26 @@
+.partners {
+  display: flex;
+  gap: 2em; /* Расстояние между логотипами */
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Вертикальное выравнивание */
+  flex-wrap: wrap; /* Перенос по строкам на маленьких экранах */
+  padding: 1em 0;
+  margin: 3em 0;
+}
+
+.partners a {
+  display: inline-block; /* Позволяет задать размеры ссылкам */
+  transition: transform 0.3s ease; /* Плавный зум при наведении */
+}
+
+.partners a:hover,
+.partners a:focus {
+  transform: scale(1.05);
+  outline: none;
+}
+
+.adsImg {
+  width: auto;
+  height: 30vh;
+  display: block;
+}

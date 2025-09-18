@@ -1,0 +1,26 @@
+.newsBlock {
+  display: flex;
+  gap: 1em;
+  font-family: "verdana";
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+
+.newsPhoto {
+  flex-shrink: 0;
+  width: 50%;
+  max-height: 30%;
+  object-fit: cover;
+}
+
+.newsTxt {
+  flex-grow: 1;
+  line-height: 1.5;
+}
+
+.newsTitle {
+  font-weight: bold;
+  font-size: 1.5em;
+}
