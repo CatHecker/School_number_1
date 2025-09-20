@@ -12,19 +12,20 @@ export function Header() {
   };
 
   return (
-    <header>
+    <header className="siteHeader">
       <div className="logo_block">
-        <img src={logo} className="logo" />
+        <img src={logo} className="logo" alt="Логотип школы" />
         <div className="logo_text">
           <h1>МОБУ СОШ 1</h1>
           <h4>с. Архангельское</h4>
         </div>
       </div>
-      <nav>
+      <nav aria-label="Основная навигация" className="mainNav">
         <SearchInput />
         <button
           onClick={openMenu}
           className={`burger-button ${menu_opened ? "open" : ""}`}
+          aria-label={menu_opened ? "Закрыть меню" : "Открыть меню"}
         >
           <span />
           <span />

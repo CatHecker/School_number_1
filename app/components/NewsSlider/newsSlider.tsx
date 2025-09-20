@@ -4,7 +4,7 @@ import news2 from "../../src/imgs/news2.jpeg";
 import news3 from "../../src/imgs/news3.jpeg";
 import { News } from "../News/News";
 import { useEffect, useState } from "react";
-import "./style.scss";
+import "./newsSlider.scss";
 
 const newsData = [
   {

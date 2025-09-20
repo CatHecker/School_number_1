@@ -1,16 +1,26 @@
-import "./style.scss";
+import "./footer.scss";
 
 export default function Footer() {
   return (
     <footer className="contacts" aria-label="Контактная информация">
-      <div className="contact-item">
+      <address className="contact-item">
         <h4>Директор</h4>
-        <p>8(34774)21770</p>
-      </div>
-      <div className="contact-item">
+        <div>
+          <a href="tel:+73477421770" className="phone">
+            8(34774)21770
+          </a>
+          <br />
+        </div>
+      </address>
+      <address className="contact-item">
         <h4>Заместитель директора по УВР</h4>
-        <p>8(34774)21770</p>
-      </div>
+        <div>
+          <a href="tel:+73477421770" className="phone">
+            8(34774)21770
+          </a>
+          <br />
+        </div>
+      </address>
     </footer>
   );
 }

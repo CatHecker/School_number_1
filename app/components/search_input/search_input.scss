@@ -2,7 +2,7 @@
   margin: 3em 2em;
   border-radius: 3em;
   display: flex;
-  background-color: $color-brown;
+  background-color: colors.$color-brown;
   overflow: hidden;
 }
 .search_button {
@@ -13,7 +13,7 @@
 .search_input {
   font-size: 2em;
   border: none;
-  background-color: $color-brown;
+  background-color: colors.$color-brown;
   color: white;
   width: 0vw;
   outline: none;
@@ -26,7 +26,7 @@
 }
 .search_icon {
   color: white;
-  background-color: $color-brown;
+  background-color: colors.$color-brown;
   font-size: 2em;
   padding: 0.5em 0.75em;
   border-radius: 0.5em;

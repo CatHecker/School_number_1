@@ -11,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
   return [
     { title: "МОБУ СОШ #1 с.Архангельское" },
     {
-      name: "description",
+      name: "МОБУ СОШ #1 с.Архангельское",
       content: "Неофициальный сайт МОБУ СОШ #1 с. Архангельское",
     },
   ];
@@ -19,18 +19,51 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div>
-      <NewsSlider />
+    <div className="main">
+      <section aria-label="Новости" className="homeNews">
+        <h2 className="visually-hidden">Новости школы</h2>
+        <NewsSlider />
+      </section>
+
       <section className="partners" aria-label="Партнеры и спонсоры">
-        <a href="https://vk.com/tochkarosta_official">
-          <img className="growOfPointLogo  adsImg" src={adv2} />
-        </a>
-        <a href="https://resh.edu.ru/">
-          <img className="reshLogo  adsImg" src={adv3} />
-        </a>
-        <a href="https://будьвдвижении.рф/">
-          <img className="firstMoveLogo  adsImg" src={adv1} />
-        </a>
+        <h2 className="visually-hidden">Партнеры школы</h2>
+        <ul className="partnersList">
+          <li>
+            <a
+              href="https://vk.com/tochkarosta_official"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={adv2}
+                alt="Точка роста"
+                className="growOfPointLogo adsImg"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://resh.edu.ru/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={adv3} alt="РЭШ" className="reshLogo adsImg" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://будьвдвижении.рф/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={adv1}
+                alt="Будь в движении"
+                className="firstMoveLogo adsImg"
+              />
+            </a>
+          </li>
+        </ul>
       </section>
     </div>
   );
