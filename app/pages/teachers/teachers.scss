@@ -1,0 +1,35 @@
+.leadership {
+  margin: 2em 3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #d9d9d9;
+}
+
+.leadership > h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  color: #ffd936;
+  font-weight: bold;
+  text-align: center;
+}
+
+.leadership .leader {
+  background-color: #2a2c3a;
+  border-radius: 12px;
+  padding: 1.5em 2em;
+  margin-bottom: 1.5em;
+  box-shadow: 1px 2px 8px rgba(50, 50, 70, 0.5);
+}
+
+.leadership .leader h2 {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 0.75em;
+  color: #ffe178;
+}
+
+.leadership .leader p {
+  font-size: 1.05em;
+  line-height: 1.5;
+  margin-bottom: 0.8em;
+  color: #d9d9d9;
+}
