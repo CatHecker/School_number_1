@@ -35,7 +35,7 @@
 1. Склонируйте репозиторий
 
 ```
-git clone https://github.com/yourusername/school-website.git
+git clone https://github.com/CatHecker/School_number_1.git
 ```
 
 2. Установите зависимости
